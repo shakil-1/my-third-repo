@@ -1,0 +1,32 @@
+*{margin: 0;
+padding: 0;}
+ul{
+    text-align: center;
+    background: rgb(201, 54, 176);
+
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 20px;
+    padding: 15px 30px;
+    color: white;
+    border-left: 1px solid  white;
+    margin-left: -5px;
+    transition: .5s;
+}
+ul li:last-child a{
+    border-right: 1px solid white;
+}
+
+ul li a:hover{
+    background-color: coral;
+color: #000;
+}
+
+/* ------------------ */
